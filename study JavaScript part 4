@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variabel dan type data</title>
+</head>
+<body>
+
+    <script>
+        let namaMateri = "javascript";
+        let namaAkhir = 95;
+        let statusOnline = true;
+        let buah = ["Apel", "Jeruk"];
+
+        console.log(namaMateri);
+        console.log(namaAkhir);
+        console.log(statusOnline);
+        console.log(buah);
+
+        alert(namaMateri + " " + namaAkhir);
+        console.log(namaMateri + " " + namaAkhir);
+        document.write(namaMateri + " " + namaAkhir);
+
+        document.write(`saya ${namaMateri} dan aku mendapatkan nilai s${namaAkhir} ${statusOnline}`);
+
+        namaMateri = "Javascript untuk aku";
+        console.log(namaMateri);
+    </script>
+</body>
+</html>
+
+<!-- declarasi variabel pada javascript -->
+<!-- let = namanya bisa di ubah setelah deklarasi -->
+<!-- const = nilainya tidak bisa diubah setelah inisialisasi-->
+<!-- var = -->
+
+<!-- type data javascript -->
+<!-- 1. string di gunakan untuk mempresentasikan teks -->
+<!-- 2. Number digunakan untuk mempresentasikan angka, baik bilangan bulat (integer) maupun bilangan desimal (floting-point) -->
+<!-- 3. Boolean: true dan false digunakan untuk mempresentasikan nilai angka -->
+<!-- 4. Array kumpulan data yang terurut, dalam menggunakan indeks yang di mulai dari 0 -->
