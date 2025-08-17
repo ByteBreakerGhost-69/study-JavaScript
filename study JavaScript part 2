@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- metode pertama inline -->
+    <h2>contoh inline javascript</h2>
+    <button onclick="alert('ini contoh inline javascript')">klik saya</button>
+
+    <!-- metode ke 2 <script>...</script> -->
+        <script>
+            alert('saya alert javascript');
+        </script>
+</body>
+</html>
