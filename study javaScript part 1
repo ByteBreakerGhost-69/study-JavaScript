@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h2 id="input"></h2>
+    <script>
+        alert("hay saya alert dari javascript");
+        confirm("apakah ada yang di ingin kan");
+        let input = prompt("tulis nama anda");
+        let output = document.getElementById("input");
+        output.innerHTML = "selamat datang" + " " + input;
+    </script>
+</body>
+</html>
+
+<!-- prompt berfungsi untuk meminta input dari pengguna dari kotak dialog -->
