@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+</head>
+<body>
+    <p id="paragraf">saya dari html</p>
+    <script>
+        // console.log
+        console.log("saya sedang belajar javascript");
+        // alert
+        alert ("hai...... alert from javascript");
+        // document.write
+        document.write("<h1>hai selamat datang dijavasceipt</h1>");
+        // document.getElementById()
+        document.getElementById("paragraf").innerHTML="saya dari javascript!";
+    </script>
+</body>
+</html>
+
+<!-- menampilkan output  -->
+<!-- 1. console.log() adalah bawaan javascript yang di gunakkan untuk menampilakn outpun/informasi di console web browser -->
+<!-- 2. alert () -->
+<!-- 3. document.write() -->
+<!-- 4. document.getElementById() -->
